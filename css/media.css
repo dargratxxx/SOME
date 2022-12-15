@@ -1,0 +1,183 @@
+@media(max-width:767px) {
+    .body_size {
+        max-width: none;
+
+    }
+
+    .header_top {
+        display: flex;
+
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .header_top img {
+        width: 97px;
+        height: 98px;
+    }
+
+    .header_top h1 {
+
+
+        color: #0088A2;
+
+        font-size: 18px;
+
+        font-family: 'Josefin Sans';
+        font-style: normal;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .question_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .question img {
+        width: 330px;
+        height: 196px;
+    }
+
+    .main_app h2 {
+        display: flex;
+        color: #0088A2;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 100px;
+        font-family: 'Open Sans';
+        font-style: normal;
+
+
+    }
+
+    .button {
+        position: absolute;
+        top: 117%;
+        left: 45%;
+        width: 40px;
+        height: 40px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-style: normal;
+        margin-top: 100px;
+    }
+
+    .pics {
+        display: none;
+    }
+
+    .project h3 {
+        display: flex;
+        color: #0088A2;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 100px;
+        font-family: 'Open Sans';
+        font-style: normal;
+
+    }
+
+    .project p {
+        display: flex;
+        color: #707070;
+        margin: 50px 100px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 15px;
+    }
+
+
+    .code h4 {
+        display: flex;
+        color: #0088A2;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 100px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .codepic1 {
+        width: 130px;
+        height: 101px;
+    }
+
+    .codepic2 {
+        width: 87px;
+        height: 87px;
+    }
+
+    .code p {
+        display: flex;
+        color: #707070;
+        margin: 50px 100px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 15px;
+    }
+
+    .footer_some {
+        height: 41vh;
+    }
+
+    .footer_some h5 {
+
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 24px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+    }
+
+    .footer_some img {
+        height: 32px;
+        width: 32px;
+    }
+
+    .general p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+
+    }
+
+
+
+}
+
+
+
+@media(min-width:667px) {
+    .burger_menu {
+        display: none;
+    }
+
+
+}
+
+@media(max-width:667px) {
+    .menu_without_burger {
+        display: none;
+    }
+
+
+}
